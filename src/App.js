@@ -49,7 +49,7 @@ class App extends Component {
         <Buttons calcu={this.multi}> * Multiply </Buttons>
         <Buttons calcu={this.divi}>/ Divide </Buttons>
         <Inputs disabled="disabled" value={this.state.count}/>
-        <Buttons calcu={this.clear}>Clear</Buttons>
+        <Buttons calcu={this.clear}>CLEAR</Buttons>
         </div>
       </div>
     );
